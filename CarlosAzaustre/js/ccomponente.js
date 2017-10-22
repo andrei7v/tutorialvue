@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 Vue.component('movie-card',{
   props:['image','title'],
   template:`
@@ -6,7 +7,7 @@ Vue.component('movie-card',{
       <h2>{{ title }}</h2>
     </div>
   `,
-})
+});
 
 new Vue({
   el: '#app',
@@ -27,4 +28,4 @@ new Vue({
       </movie-card>
     </div>
   `
-})
+});
